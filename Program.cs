@@ -22,7 +22,10 @@ namespace MoreStrings
 
             Console.WriteLine(fullName.Replace("John", "Johnathan"));
             
-            
+            if (String.IsNullOrWhiteSpace(" "))
+                Console.WriteLine("Invalid");
+
+
         }
     }
 }
